@@ -1,0 +1,24 @@
+# JARVIS HCI Voice Assistant Dependencies
+
+# Core Speech Recognition & Synthesis
+SpeechRecognition>=3.10.0
+PyAudio>=0.2.13
+piper-tts>=1.2.0
+onnxruntime>=1.15.0
+
+# Audio Playback
+pygame>=2.5.0
+
+# Computer Vision & Face Recognition
+opencv-python>=4.8.0
+face-recognition>=1.3.0
+dlib>=19.24.0
+
+# Embedded & Serial Communication
+pyserial>=3.5
+
+# Utilities & System Performance
+numpy>=1.24.0
+psutil>=5.9.0
+requests>=2.31.0
+python-dotenv>=1.0
