@@ -15,7 +15,7 @@ jarvis-voice-assistant/
 │
 ├── src/                        # Python application source code
 │   ├── jarvis_enhanced_complete.py  # Main entry script
-│   └── test_components.py           # Diagnostic suite for hardware & software
+│   └── hardware_diagnostics.py           # Diagnostic suite for hardware & software
 │
 ├── arduino/                    # Embedded controller code
 │   └── jarvis_kitt_enhanced/
@@ -70,7 +70,7 @@ wget -O models/jarvis-medium.onnx.json "https://huggingface.co/rhasspy/piper-voi
 ### 2. Software Setup
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/jarvis-voice-assistant.git
+git clone https://github.com/thiwanka-mpj/JARVIS-Voice-Assistant-Project.git
 cd jarvis-voice-assistant
 
 # Create and activate a Python virtual environment
@@ -83,10 +83,10 @@ pip install -r requirements.txt
 # Download voice model (see instructions above)
 
 # Run component diagnostics to verify hardware
-python src/test_components.py
+python3 src/hardware_diagnostics.py
 
 # Launch JARVIS
-python src/jarvis_enhanced_complete.py
+python3 src/jarvis_enhanced_complete.py
 ```
 
 ---
